@@ -1,7 +1,7 @@
 .Story {
   display: flex;
-  min-width: 49%;
-  max-width: 49%;
+  min-width: 48.5%;
+  max-width: 48.5%;
   height: 250px;
   border: 2px solid ghostwhite;
   margin-top: 20px;
@@ -29,3 +29,13 @@
   line-height: 150%;
   margin: 0;
 }
+
+@media screen and (max-width: 1030px) {
+
+    .Story {
+    display: flex;
+    min-width: 100%;
+    max-width: 100%;
+  }
+}
+

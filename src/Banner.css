@@ -33,3 +33,18 @@
   display: flex;
   justify-content: flex-start;
 }
+
+@media screen and (max-width: 770px) {
+
+    .Banner {
+    display: block;
+    width:90%;
+  }
+
+  .banner-left{
+    width: 100%;
+  }
+  .banner-right{
+    display: none;
+  }
+}
